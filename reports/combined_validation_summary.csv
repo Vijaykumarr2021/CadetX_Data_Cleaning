@@ -1,0 +1,4 @@
+File,Batch_Status,Records,Total_Errors,Advanced_Status,Final_Status
+cleaned_customer.csv,PASSED,6,0,PASSED,PASSED
+cleaned_employees.csv,PASSED,4,0,PASSED,PASSED
+cleaned_sales.csv,PASSED,4,0,PASSED,PASSED

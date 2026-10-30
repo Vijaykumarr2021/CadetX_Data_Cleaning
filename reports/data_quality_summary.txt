@@ -1,0 +1,18 @@
+CADETX AUTOMATED DATA QUALITY SUMMARY
+====================================
+
+Generated: 2026-10-30 21:33:06
+
+Total Datasets: 3
+Total Records: 14
+
+Datasets Passed: 3
+Datasets Failed: 0
+
+Total Advanced Validation Errors: 0
+
+Dataset Pass Rate: 100.00%
+
+Overall Status: PASSED
+
+Detailed Report: combined_validation_summary.csv
