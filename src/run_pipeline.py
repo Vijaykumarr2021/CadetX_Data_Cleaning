@@ -5,7 +5,12 @@ from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-scripts = ["main.py", "validation.py", "report.py"]
+scripts = [
+    "check_errors.py",
+    "main.py",
+    "validation.py",
+    "report.py"
+]
 
 print("Starting CadetX Data Pipeline...\n")
 
