@@ -7,7 +7,8 @@ SRC_DIR = Path(__file__).resolve().parent
 
 scripts = [
     "batch_cleaner.py",
-    "batch_validator.py"
+    "batch_validator.py",
+    "advanced_validator.py"
 ]
 
 print("Starting CadetX Batch Pipeline...\n", flush=True)
