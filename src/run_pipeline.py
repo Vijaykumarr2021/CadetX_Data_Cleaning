@@ -9,7 +9,8 @@ scripts = [
     "check_errors.py",
     "main.py",
     "validation.py",
-    "report.py"
+    "report.py",
+    "quality_score.py"
 ]
 
 print("Starting CadetX Data Pipeline...\n")
