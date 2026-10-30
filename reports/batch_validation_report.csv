@@ -1,0 +1,4 @@
+File,Total_Records,Missing_Values,Duplicate_Rows,Duplicate_IDs,Invalid_Ages,Invalid_Salaries,Status
+cleaned_customer.csv,6,0,0,0,0,0,PASSED
+cleaned_employees.csv,4,0,0,0,0,0,PASSED
+cleaned_sales.csv,4,0,0,0,0,0,PASSED
