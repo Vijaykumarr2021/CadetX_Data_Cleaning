@@ -1,0 +1,5 @@
+OrderID,Product,Quantity,Price
+1,Laptop,2.0,50000.0
+2,Mouse,5.0,500.0
+3,Keyboard,2.0,1500.0
+4,Monitor,2.0,1500.0
