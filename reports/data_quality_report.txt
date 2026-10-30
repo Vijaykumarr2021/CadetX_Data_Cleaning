@@ -1,7 +1,7 @@
 
 CADETX DATA QUALITY REPORT
 --------------------------
-Generated: 2026-10-30 20:42:07.184250
+Generated: 2026-10-30 20:57:00.860071
 
 Original Records: 7
 Cleaned Records: 6
