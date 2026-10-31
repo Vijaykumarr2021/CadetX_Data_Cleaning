@@ -9,8 +9,9 @@ scripts = [
     "batch_cleaner.py",
     "batch_validator.py",
     "advanced_validator.py",
-    "quality_summary.py"
-]   
+    "quality_summary.py",
+    "quality_dashboard.py"
+] 
 
 print("Starting CadetX Batch Pipeline...\n", flush=True)
 
