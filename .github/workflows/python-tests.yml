@@ -31,7 +31,6 @@ jobs:
           python -m pip install -r requirements.txt
           python -m pip install pytest
           python -m pip show pytest
-
       - name: Run CadetX tests
         run: |
           python -m pytest tests/test_validation_rules.py -v
