@@ -1,6 +1,7 @@
 
 import pandas as pd
 from pathlib import Path
+from validation_rules import validate_dataframe
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 INPUT_DIR = BASE_DIR / "data" / "processed"
@@ -10,7 +11,8 @@ REPORTS_DIR.mkdir(parents=True, exist_ok=True)
 
 results = []
 
-csv_files = sorted(INPUT_DIR.glob("*.csv"))
+df = pd.read_csv(file)
+errors = validate_dataframe(df)
 
 if not csv_files:
     print("No CSV files found in data/processed")
