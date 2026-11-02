@@ -1,0 +1,194 @@
+[
+    {
+        "file_name": "cleaned_customer.csv",
+        "total_rows": 6,
+        "total_columns": 5,
+        "duplicate_rows": 0,
+        "columns": [
+            {
+                "column_name": "EmployeeID",
+                "data_type": "int64",
+                "semantic_type": "numeric",
+                "missing_values": 0,
+                "unique_values": 6,
+                "sample_values": [
+                    "101",
+                    "102",
+                    "103"
+                ]
+            },
+            {
+                "column_name": "Name",
+                "data_type": "str",
+                "semantic_type": "text",
+                "missing_values": 0,
+                "unique_values": 6,
+                "sample_values": [
+                    "Rahul",
+                    "Priya",
+                    "Amit"
+                ]
+            },
+            {
+                "column_name": "Age",
+                "data_type": "float64",
+                "semantic_type": "numeric",
+                "missing_values": 0,
+                "unique_values": 5,
+                "sample_values": [
+                    "25.0",
+                    "28.0",
+                    "27.0"
+                ]
+            },
+            {
+                "column_name": "Department",
+                "data_type": "str",
+                "semantic_type": "text",
+                "missing_values": 0,
+                "unique_values": 3,
+                "sample_values": [
+                    "IT",
+                    "HR",
+                    "IT"
+                ]
+            },
+            {
+                "column_name": "Salary",
+                "data_type": "float64",
+                "semantic_type": "numeric",
+                "missing_values": 0,
+                "unique_values": 5,
+                "sample_values": [
+                    "30000.0",
+                    "35000.0",
+                    "40000.0"
+                ]
+            }
+        ]
+    },
+    {
+        "file_name": "cleaned_employees.csv",
+        "total_rows": 4,
+        "total_columns": 5,
+        "duplicate_rows": 0,
+        "columns": [
+            {
+                "column_name": "EmployeeID",
+                "data_type": "int64",
+                "semantic_type": "numeric",
+                "missing_values": 0,
+                "unique_values": 4,
+                "sample_values": [
+                    "101",
+                    "102",
+                    "103"
+                ]
+            },
+            {
+                "column_name": "Name",
+                "data_type": "str",
+                "semantic_type": "text",
+                "missing_values": 0,
+                "unique_values": 4,
+                "sample_values": [
+                    "Amit",
+                    "Priya",
+                    "Rahul"
+                ]
+            },
+            {
+                "column_name": "Age",
+                "data_type": "float64",
+                "semantic_type": "numeric",
+                "missing_values": 0,
+                "unique_values": 3,
+                "sample_values": [
+                    "25.0",
+                    "28.0",
+                    "30.0"
+                ]
+            },
+            {
+                "column_name": "Department",
+                "data_type": "str",
+                "semantic_type": "text",
+                "missing_values": 0,
+                "unique_values": 3,
+                "sample_values": [
+                    "IT",
+                    "HR",
+                    "Finance"
+                ]
+            },
+            {
+                "column_name": "Salary",
+                "data_type": "float64",
+                "semantic_type": "numeric",
+                "missing_values": 0,
+                "unique_values": 3,
+                "sample_values": [
+                    "35000.0",
+                    "40000.0",
+                    "40000.0"
+                ]
+            }
+        ]
+    },
+    {
+        "file_name": "cleaned_sales.csv",
+        "total_rows": 4,
+        "total_columns": 4,
+        "duplicate_rows": 0,
+        "columns": [
+            {
+                "column_name": "OrderID",
+                "data_type": "int64",
+                "semantic_type": "numeric",
+                "missing_values": 0,
+                "unique_values": 4,
+                "sample_values": [
+                    "1",
+                    "2",
+                    "3"
+                ]
+            },
+            {
+                "column_name": "Product",
+                "data_type": "str",
+                "semantic_type": "text",
+                "missing_values": 0,
+                "unique_values": 4,
+                "sample_values": [
+                    "Laptop",
+                    "Mouse",
+                    "Keyboard"
+                ]
+            },
+            {
+                "column_name": "Quantity",
+                "data_type": "float64",
+                "semantic_type": "numeric",
+                "missing_values": 0,
+                "unique_values": 2,
+                "sample_values": [
+                    "2.0",
+                    "5.0",
+                    "2.0"
+                ]
+            },
+            {
+                "column_name": "Price",
+                "data_type": "float64",
+                "semantic_type": "numeric",
+                "missing_values": 0,
+                "unique_values": 3,
+                "sample_values": [
+                    "50000.0",
+                    "500.0",
+                    "1500.0"
+                ]
+            }
+        ]
+    }
+]
