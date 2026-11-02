@@ -1,0 +1,38 @@
+[
+    {
+        "file_name": "cleaned_customer.csv",
+        "total_rows": 6,
+        "total_columns": 5,
+        "missing_cells": 0,
+        "duplicate_rows": 0,
+        "invalid_rows": 0,
+        "completeness_score": 100.0,
+        "uniqueness_score": 100.0,
+        "validity_score": 100.0,
+        "overall_quality_score": 100.0
+    },
+    {
+        "file_name": "cleaned_employees.csv",
+        "total_rows": 4,
+        "total_columns": 5,
+        "missing_cells": 0,
+        "duplicate_rows": 0,
+        "invalid_rows": 0,
+        "completeness_score": 100.0,
+        "uniqueness_score": 100.0,
+        "validity_score": 100.0,
+        "overall_quality_score": 100.0
+    },
+    {
+        "file_name": "cleaned_sales.csv",
+        "total_rows": 4,
+        "total_columns": 4,
+        "missing_cells": 0,
+        "duplicate_rows": 0,
+        "invalid_rows": 0,
+        "completeness_score": 100.0,
+        "uniqueness_score": 100.0,
+        "validity_score": 100.0,
+        "overall_quality_score": 100.0
+    }
+]
