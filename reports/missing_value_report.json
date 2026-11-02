@@ -1,0 +1,110 @@
+[
+    {
+        "file_name": "cleaned_customer.csv",
+        "total_rows": 6,
+        "total_columns": 5,
+        "total_missing_values": 0,
+        "columns": [
+            {
+                "column_name": "EmployeeID",
+                "missing_count": 0,
+                "missing_percentage": 0.0,
+                "severity": "None"
+            },
+            {
+                "column_name": "Name",
+                "missing_count": 0,
+                "missing_percentage": 0.0,
+                "severity": "None"
+            },
+            {
+                "column_name": "Age",
+                "missing_count": 0,
+                "missing_percentage": 0.0,
+                "severity": "None"
+            },
+            {
+                "column_name": "Department",
+                "missing_count": 0,
+                "missing_percentage": 0.0,
+                "severity": "None"
+            },
+            {
+                "column_name": "Salary",
+                "missing_count": 0,
+                "missing_percentage": 0.0,
+                "severity": "None"
+            }
+        ]
+    },
+    {
+        "file_name": "cleaned_employees.csv",
+        "total_rows": 4,
+        "total_columns": 5,
+        "total_missing_values": 0,
+        "columns": [
+            {
+                "column_name": "EmployeeID",
+                "missing_count": 0,
+                "missing_percentage": 0.0,
+                "severity": "None"
+            },
+            {
+                "column_name": "Name",
+                "missing_count": 0,
+                "missing_percentage": 0.0,
+                "severity": "None"
+            },
+            {
+                "column_name": "Age",
+                "missing_count": 0,
+                "missing_percentage": 0.0,
+                "severity": "None"
+            },
+            {
+                "column_name": "Department",
+                "missing_count": 0,
+                "missing_percentage": 0.0,
+                "severity": "None"
+            },
+            {
+                "column_name": "Salary",
+                "missing_count": 0,
+                "missing_percentage": 0.0,
+                "severity": "None"
+            }
+        ]
+    },
+    {
+        "file_name": "cleaned_sales.csv",
+        "total_rows": 4,
+        "total_columns": 4,
+        "total_missing_values": 0,
+        "columns": [
+            {
+                "column_name": "OrderID",
+                "missing_count": 0,
+                "missing_percentage": 0.0,
+                "severity": "None"
+            },
+            {
+                "column_name": "Product",
+                "missing_count": 0,
+                "missing_percentage": 0.0,
+                "severity": "None"
+            },
+            {
+                "column_name": "Quantity",
+                "missing_count": 0,
+                "missing_percentage": 0.0,
+                "severity": "None"
+            },
+            {
+                "column_name": "Price",
+                "missing_count": 0,
+                "missing_percentage": 0.0,
+                "severity": "None"
+            }
+        ]
+    }
+]
