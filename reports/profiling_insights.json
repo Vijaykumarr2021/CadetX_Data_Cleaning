@@ -1,0 +1,36 @@
+{
+    "project": "CadetX Data Cleaning and Validation",
+    "generated_at_utc": "2026-11-05T14:32:32.016010+00:00",
+    "total_datasets": 3,
+    "average_quality_score": 100.0,
+    "assessment_scope": "Results reflect the existing completeness, uniqueness and limited validity checks.",
+    "datasets": [
+        {
+            "dataset_name": "cleaned_customer.csv",
+            "quality_score": 100.0,
+            "quality_status": "Excellent",
+            "issues": [],
+            "recommendations": [
+                "Maintain data quality monitoring. No issues found by current checks."
+            ]
+        },
+        {
+            "dataset_name": "cleaned_employees.csv",
+            "quality_score": 100.0,
+            "quality_status": "Excellent",
+            "issues": [],
+            "recommendations": [
+                "Maintain data quality monitoring. No issues found by current checks."
+            ]
+        },
+        {
+            "dataset_name": "cleaned_sales.csv",
+            "quality_score": 100.0,
+            "quality_status": "Excellent",
+            "issues": [],
+            "recommendations": [
+                "Maintain data quality monitoring. No issues found by current checks."
+            ]
+        }
+    ]
+}

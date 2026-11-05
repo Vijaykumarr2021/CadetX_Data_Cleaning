@@ -1,0 +1,27 @@
+CADETX AUTOMATED DATA PROFILING SUMMARY
+=============================================
+Total Datasets: 3
+Average Quality Score: 100.0
+
+Dataset: cleaned_customer.csv
+Quality Score: 100.0/100
+Status: Excellent
+Issues: None detected
+Recommendations:
+  - Maintain data quality monitoring. No issues found by current checks.
+---------------------------------------------
+Dataset: cleaned_employees.csv
+Quality Score: 100.0/100
+Status: Excellent
+Issues: None detected
+Recommendations:
+  - Maintain data quality monitoring. No issues found by current checks.
+---------------------------------------------
+Dataset: cleaned_sales.csv
+Quality Score: 100.0/100
+Status: Excellent
+Issues: None detected
+Recommendations:
+  - Maintain data quality monitoring. No issues found by current checks.
+---------------------------------------------
+Results reflect the existing completeness, uniqueness and limited validity checks.
