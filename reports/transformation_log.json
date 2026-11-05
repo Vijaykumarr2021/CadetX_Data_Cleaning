@@ -1,0 +1,36 @@
+{
+    "project": "CadetX Automated Data Cleaning",
+    "module": "Data Type Standardization",
+    "generated_at_utc": "2026-11-05T15:17:38.855151+00:00",
+    "total_files": 2,
+    "files": [
+        {
+            "input_file": "cleaned_customer_cleaned.csv",
+            "output_file": "data/standardized/cleaned_customer_cleaned_standardized.csv",
+            "total_rows": 6,
+            "numeric_columns_converted": [
+                "Age",
+                "Salary"
+            ],
+            "date_columns_standardized": [],
+            "text_values_changed": {
+                "Department": 0
+            },
+            "warnings": []
+        },
+        {
+            "input_file": "customer_cleaned.csv",
+            "output_file": "data/standardized/customer_cleaned_standardized.csv",
+            "total_rows": 6,
+            "numeric_columns_converted": [
+                "Age",
+                "Salary"
+            ],
+            "date_columns_standardized": [],
+            "text_values_changed": {
+                "Department": 0
+            },
+            "warnings": []
+        }
+    ]
+}
