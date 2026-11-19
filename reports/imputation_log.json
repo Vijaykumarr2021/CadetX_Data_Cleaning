@@ -1,0 +1,26 @@
+{
+    "project": "CadetX Data Cleaning",
+    "module": "Advanced Missing Value Handling",
+    "generated_at_utc": "2026-11-19T16:56:13.739973+00:00",
+    "total_files": 2,
+    "files": [
+        {
+            "input_file": "cleaned_customer_cleaned_standardized.csv",
+            "output_file": "data/imputed/cleaned_customer_cleaned_standardized_imputed.csv",
+            "total_rows": 6,
+            "missing_before": 0,
+            "missing_after": 0,
+            "filled_values": [],
+            "warnings": []
+        },
+        {
+            "input_file": "customer_cleaned_standardized.csv",
+            "output_file": "data/imputed/customer_cleaned_standardized_imputed.csv",
+            "total_rows": 6,
+            "missing_before": 0,
+            "missing_after": 0,
+            "filled_values": [],
+            "warnings": []
+        }
+    ]
+}
