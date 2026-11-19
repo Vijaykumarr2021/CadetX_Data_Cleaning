@@ -1,0 +1,31 @@
+{
+    "generated_at_utc": "2026-11-19T17:02:36.515976+00:00",
+    "policy": "Remove exact duplicates; retain differing key collisions",
+    "total_files": 2,
+    "files": [
+        {
+            "input_file": "cleaned_customer_cleaned_standardized_imputed.csv",
+            "output_file": "data/deduplicated/cleaned_customer_cleaned_standardized_imputed_deduplicated.csv",
+            "original_rows": 6,
+            "output_rows": 6,
+            "exact_duplicates_removed": 0,
+            "key_columns_used": [
+                "EmployeeID"
+            ],
+            "key_collision_groups_retained": 0,
+            "key_collision_rows_retained": 0
+        },
+        {
+            "input_file": "customer_cleaned_standardized_imputed.csv",
+            "output_file": "data/deduplicated/customer_cleaned_standardized_imputed_deduplicated.csv",
+            "original_rows": 6,
+            "output_rows": 6,
+            "exact_duplicates_removed": 0,
+            "key_columns_used": [
+                "EmployeeID"
+            ],
+            "key_collision_groups_retained": 0,
+            "key_collision_rows_retained": 0
+        }
+    ]
+}
