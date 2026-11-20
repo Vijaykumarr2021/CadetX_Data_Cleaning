@@ -1,0 +1,140 @@
+{
+    "project": "CadetX Automated Data Cleaning and Validation System",
+    "module": "Integrated Cleaning Pipeline",
+    "generated_at_utc": "2026-11-20T04:18:00.414650+00:00",
+    "total_files": 2,
+    "total_input_rows": 13,
+    "total_output_rows": 12,
+    "outlier_policy": "flag_only",
+    "files": [
+        {
+            "input_file": "cleaned_customer.csv",
+            "output_file": "/Users/vijay/Desktop/CadetX_Data_Cleaning/data/pipeline_output/cleaned_customer_pipeline_cleaned.csv",
+            "input_rows": 6,
+            "output_rows": 6,
+            "stages": {
+                "cleaning": {
+                    "original_rows": 6,
+                    "cleaned_rows": 6,
+                    "duplicates_removed": 0,
+                    "whitespace_values_trimmed": 0,
+                    "missing_before": 0,
+                    "missing_after": 0,
+                    "filled_values": {}
+                },
+                "standardization": {
+                    "total_rows": 6,
+                    "numeric_columns_converted": [
+                        "Age",
+                        "Salary"
+                    ],
+                    "date_columns_standardized": [],
+                    "text_values_changed": {
+                        "Department": 0
+                    },
+                    "warnings": []
+                },
+                "missing_values": {
+                    "total_rows": 6,
+                    "missing_before": 0,
+                    "missing_after": 0,
+                    "filled_values": [],
+                    "warnings": []
+                },
+                "deduplication": {
+                    "original_rows": 6,
+                    "output_rows": 6,
+                    "exact_duplicates_removed": 0,
+                    "key_columns_used": [
+                        "EmployeeID"
+                    ],
+                    "key_collision_groups_retained": 0,
+                    "key_collision_rows_retained": 0
+                },
+                "outliers": {
+                    "input_rows": 6,
+                    "output_rows": 6,
+                    "mode": "flag",
+                    "columns_analyzed": [
+                        "Age",
+                        "Salary"
+                    ],
+                    "outliers_flagged": 1,
+                    "values_capped": 0,
+                    "warnings": []
+                }
+            }
+        },
+        {
+            "input_file": "customer.csv",
+            "output_file": "/Users/vijay/Desktop/CadetX_Data_Cleaning/data/pipeline_output/customer_pipeline_cleaned.csv",
+            "input_rows": 7,
+            "output_rows": 6,
+            "stages": {
+                "cleaning": {
+                    "original_rows": 7,
+                    "cleaned_rows": 6,
+                    "duplicates_removed": 1,
+                    "whitespace_values_trimmed": 0,
+                    "missing_before": 2,
+                    "missing_after": 2,
+                    "filled_values": {}
+                },
+                "standardization": {
+                    "total_rows": 6,
+                    "numeric_columns_converted": [
+                        "Age",
+                        "Salary"
+                    ],
+                    "date_columns_standardized": [],
+                    "text_values_changed": {
+                        "Department": 0
+                    },
+                    "warnings": []
+                },
+                "missing_values": {
+                    "total_rows": 6,
+                    "missing_before": 2,
+                    "missing_after": 0,
+                    "filled_values": [
+                        {
+                            "column": "Age",
+                            "strategy": "median",
+                            "count": 1,
+                            "value": "27.0"
+                        },
+                        {
+                            "column": "Salary",
+                            "strategy": "median",
+                            "count": 1,
+                            "value": "38000.0"
+                        }
+                    ],
+                    "warnings": []
+                },
+                "deduplication": {
+                    "original_rows": 6,
+                    "output_rows": 6,
+                    "exact_duplicates_removed": 0,
+                    "key_columns_used": [
+                        "EmployeeID"
+                    ],
+                    "key_collision_groups_retained": 0,
+                    "key_collision_rows_retained": 0
+                },
+                "outliers": {
+                    "input_rows": 6,
+                    "output_rows": 6,
+                    "mode": "flag",
+                    "columns_analyzed": [
+                        "Age",
+                        "Salary"
+                    ],
+                    "outliers_flagged": 1,
+                    "values_capped": 0,
+                    "warnings": []
+                }
+            }
+        }
+    ]
+}
