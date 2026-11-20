@@ -1,0 +1,37 @@
+{
+    "project": "CadetX Data Cleaning",
+    "module": "Outlier Detection",
+    "generated_at_utc": "2026-11-20T04:10:23.113636+00:00",
+    "mode": "flag",
+    "total_files": 2,
+    "files": [
+        {
+            "input_file": "cleaned_customer_cleaned_standardized_imputed_deduplicated.csv",
+            "output_file": "data/outlier_review/cleaned_customer_cleaned_standardized_imputed_deduplicated_outlier_checked.csv",
+            "input_rows": 6,
+            "output_rows": 6,
+            "mode": "flag",
+            "columns_analyzed": [
+                "Age",
+                "Salary"
+            ],
+            "outliers_flagged": 1,
+            "values_capped": 0,
+            "warnings": []
+        },
+        {
+            "input_file": "customer_cleaned_standardized_imputed_deduplicated.csv",
+            "output_file": "data/outlier_review/customer_cleaned_standardized_imputed_deduplicated_outlier_checked.csv",
+            "input_rows": 6,
+            "output_rows": 6,
+            "mode": "flag",
+            "columns_analyzed": [
+                "Age",
+                "Salary"
+            ],
+            "outliers_flagged": 1,
+            "values_capped": 0,
+            "warnings": []
+        }
+    ]
+}
